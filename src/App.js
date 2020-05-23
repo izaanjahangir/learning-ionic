@@ -1,6 +1,8 @@
 import React from "react";
 import { IonApp } from "@ionic/react";
 
+import Navigation from "./navigation";
+
 /* Core CSS required for Ionic components to work properly */
 import "@ionic/react/css/core.css";
 
@@ -23,7 +25,7 @@ import "./theme/variables.css";
 function App() {
   return (
     <IonApp>
-      <h1>Ionic React</h1>
+      <Navigation />
     </IonApp>
   );
 }
